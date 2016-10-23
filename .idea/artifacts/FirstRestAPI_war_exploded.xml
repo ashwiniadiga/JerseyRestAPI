@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FirstRestAPI:war exploded">
+    <output-path>$PROJECT_DIR$/target/firstrestapi</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FirstRestAPI" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.19" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.12" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.12" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.12" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/firstrestapi/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="FirstRestAPI/web/Web" />
+    </root>
+  </artifact>
+</component>
